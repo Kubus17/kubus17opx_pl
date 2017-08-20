@@ -1,0 +1,1 @@
+<br><p>Wyślij wiadomość</p><br><div class="mesage"><input placeholder="Podaj Imię"></input><br><input placeholder="Temat"></input><br><input type="text" placeholder="Treść"><br><input type="tel" placeholder="Numer tel."></input><br><input type="button" value="Wyśłij"></input></div><br>

@@ -1,0 +1,165 @@
+* {
+ margin:0;
+ padding:0;
+ font-family:Roboto, Spirax, arial;
+ box-sizing:content-box;    
+}
+body 
+{
+     background-image: url(image/kam.jpg);
+}
+
+#wraper 
+{
+ background-color:white;
+ margin:0 auto;
+ max-width:1000px;
+
+}
+header 
+{
+     
+ height:250px;
+}
+
+header img 
+{
+    width:100%;
+    height: 230px;
+}
+#nag
+{
+    width: 100%;
+    height: 25px;
+    background-color:skyblue;
+    color:aliceblue;
+    }
+header p 
+{
+    position: absolute;
+    margin: 55px 0 0 30px;
+    color:rgb(220, 20, 20);
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #dd383e, 0 0 25px #d8ff00, 0 0 5px darkblue;
+    border-bottom: 5px solid #dc1442;
+    transform: rotate(-8deg);
+    -ms-transform: rotate(-8deg);/* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+ }
+
+nav
+{
+    background-color:skyblue;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+nav ul
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    height: 35px;
+    line-height: 200%;
+    display: inline-block;
+}
+nav ul a 
+{
+    display: block;
+    color: #fdfdfd;
+    text-decoration: none;    
+ }
+nav ul >li 
+{
+    float:left;
+    width: 150px;
+    height: 40px;
+    border-right: 1px dashed blue;
+}
+nav ul>li:first-child 
+{
+    border-left: 1px dashed blue;
+    }
+nav ul>li:hover
+{
+    background-color: coral;
+    
+}
+nav ul>li:hover>a 
+{
+    color: darkblue;
+}
+nav ul>li>ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    display: none;
+}
+nav ul>li:hover >ul
+{
+    display: block;
+}
+nav ul>li>ul>li 
+{
+    background-color: skyblue;
+    border-top: 1px dashed blue;
+    position: relative;
+    z-index: 100;
+}
+nav ul>li>ul>li:hover 
+{
+    background-color: coral;
+}
+nav ul>li>ul>li:hover >a
+{
+    color: darkblue;
+}
+article
+{
+    background-color: rgba(255,255,200,0.1);
+}
+
+article p 
+{
+    border-bottom: 2px solid green;
+    font-size: 24px;
+    margin: 10px 10px 0 10px;
+}
+article span
+{
+    margin: 15px 20px;
+    font-size: 13px;
+}
+article ul li
+{
+    margin: 0 30px;
+}
+article iframe
+{
+    margin: 82px 0;
+}
+.mesage 
+{
+    border: 2px dashed #f4c17d;
+    margin: 0 40%;
+    text-align: center;
+}
+.mesage input 
+{
+    width: 190px;
+    margin-top: 10px;
+    text-align: center;
+}
+footer
+{
+    background-color: skyblue;
+}
+marquee 
+{
+ text-shadow:20px; 
+     
+}
